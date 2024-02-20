@@ -1,0 +1,255 @@
+%\documentclass[sans-serif]{beamer}
+\documentclass[unknownkeysallowed]{beamer}
+%\usepackage[swedish]{babel}
+\mode<presentation>
+\usepackage{beamerthemesplit}
+\usepackage{caption}
+\usepackage{subcaption}
+\setbeamersize{text margin left=5mm,text margin right=5mm}
+%\usepackage{beamerthemeclassic}
+%\usecolortheme{Beaver}
+%\setbeamercolor{footnote}{fg=red}
+\setbeamertemplate{section in toc} [sections numbered]
+\setbeamertemplate{subsection in toc} [ball unnumbered]
+\setbeamertemplate{frametitle continuation}[from second][(cont.)]
+\usefonttheme{structurebold}
+%\setbeamercolor{title}{itshape.family=\rmfamily}
+%\setbeamercolor{footnote mark}{fg=red}
+\usetheme{Madrid}
+%\usefonttheme{default}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\setbeamercolor{footline}{fg=black,bg=gray}
+\addtobeamertemplate{navigation symbols}{}{ %
+	%\usebeamerfont{footline} %
+	%\usebeamercolor[fg]{footline} %
+	\hspace{1em} %
+	\insertframenumber\,/,\inserttotalframenumber}
+%\setbeamercolor{footline}{fg=white}
+\setbeamercolor{frametitle}{fg=black,bg=gray}
+\setbeamercolor{title}{fg=black,bg=lightgray}
+\setbeamercolor{author}{fg=black}
+\setbeamercolor{structure}{fg=black,bg=gray}
+\usepackage{graphicx}
+\usepackage{booktabs}
+%\usepackage{setspace}
+%\usepackage{pdflscape,multicol,multirow}
+%\usepackage{pdfpages}
+%\usepackage{apacite}
+\usepackage{natbib}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{setspace}
+\setstretch{1.5}
+
+\renewcommand{\bibname}{References}
+\renewcommand\footnoterule{{\color{black}\hrule height 1pt}}
+\setbeamertemplate{caption}[numbered]
+%\beamersetaveragebackground{white}
+\title[Concept Paper]{\textbf{Concept Paper}: \\A Versatile Modification of Gaussian Finite Mixture Models for Clustering in Time Series Analysis}
+
+\vspace{1cm}
+\author[NJAGI HENRY MURIMI]{\large NJAGI HENRY MURIMI\\ \vspace{0.5cm}PA301/S/21076/23\\ %\vspace{0.5cm}Lecturer: Dr. MARTIN KITHINJI
+}
+\date{\today}
+\begin{document}
+	\begin{frame}
+		\titlepage
+		\footnotetext{Kirinyaga University}
+	\end{frame}
+	\begin{frame}
+		\frametitle{\textbf{Presentation Outline}}
+		\tableofcontents{}
+	\end{frame}
+	%\section{Abstract}
+	%\begin{frame}
+	%\frametitle{\textbf{Abstract}}
+	
+	%\end{frame}
+	\section{Description of proposed study}
+	%\subsection{Introduction}
+	\begin{frame}
+		\frametitle{\textbf{Description of proposed study}}
+	\begin{itemize}
+	\item The research aims to develop new statistical modeling techniques for time series data clustering. 
+	\item Offer a modified GMM for time series clustering with multiple quantiles. \\
+	\item Model will overcome flaws in single Gaussian density, provide flexibility for adapting to complex time series patterns.
+	\end{itemize}
+\end{frame}
+
+\subsection{Statement of Research Question}
+\begin{frame}{Statement of the Research Question}
+	How does a generalized version of the Gaussian Finite Mixture Model improve accuracy and flexibility in time series clustering, particularly clustering at multiple quantiles?
+\end{frame}
+
+
+\section{Introduction and Rationale}
+\begin{frame}{Introduction}
+	\begin{itemize}
+		\item Most of the proposed approaches concern univariate time series (UTS) while clustering of multivariate time series (MTS) has received much less attention \citep{lopez2022quantile} 
+		
+		\item Within time series analysis, a versatile modification of Gaussian Finite Mixture Models enhances accuracy and flexibility in clustering. The method will utilize a slight modification of the parameter \cite{lopez2021quantile}
+		
+		\item \cite{musau2022clustering} proposed the need to perform clustering at multiple quantiles instead of fixing the levels of quantiles while taking caution to avoid the issue of crossing quantiles.
+		
+	\end{itemize}
+\end{frame}
+
+	
+\begin{frame}{Cont'}
+	When performing clustering at multiple quantiles, there could be a risk of inconsistent or conflicting cluster assignments across different quantiles.
+	\begin{itemize}
+		
+		\item Alfo et al. (2017) proposed a versatile approach that incorporates a broader application of finite mixture models in statistical analysis, particularly extending to multivariate cases.
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Rationale}
+	\begin{itemize}
+		\item To enhance accurate and adaptive clustering in time series, the research will develop an innovative approach integrating a slight modification of parameters.
+		
+		\item The goal is to improve the model's adaptability and learning capabilities, providing a more accurate representation of complex time series data patterns.
+	\end{itemize}
+\end{frame}
+
+\subsection{Statement of the Problem}
+\begin{frame}{Statement of the Problem}
+	\begin{itemize}
+		\item The current state of Clustering relies largely on traditional models that often overlook the dynamic interplay of multiple quantiles. 
+		
+		\item To address the challenges, the study proposes a more customizable modification of Gaussian Finite Mixture Models addressing the drawbacks of a single Gaussian density and exploring clustering at various quantiles.
+		
+		\item Integrating time series data and advanced reinforcement learning technique, the proposed model will provide a more accurate clustering. 
+	\end{itemize}
+	
+	
+\end{frame}
+
+\subsection{Objectives of the study}
+\begin{frame}
+	\frametitle{\textbf{Objectives of the Study}}
+	%	\begin{exampleblock}
+		%		<1->{\textbf{General Objective}}
+		%	\end{exampleblock}
+	To develop a versatile Modification of Gaussian Finite Mixture Models for Clustering in Time Series data.
+	\begin{exampleblock}
+		<1->{\textbf{Specific Objectives}}
+	\end{exampleblock}
+	\begin{enumerate}
+		\item To develop and Implement a Generalized Gaussian Finite Mixture Model (GMM) for Time Series Clustering.
+		\item To estimate model parameters of the model using Expectation - Maximization algorithm.
+		\item To evaluate and Quantify the Improvement in Clustering Accuracy.
+		\item Investigate and Measure the Effect of Clustering for Several Quantiles.
+	\end{enumerate}
+\end{frame}
+
+
+
+\section{Materials and Methods}
+\subsection{Model development}
+%\begin{frame}
+	%\frametitle{\textbf{Model development}}
+	%Let's take a look at reinforced learning loop
+	%\begin{figure}[H]
+		%\includegraphics[width=12cm,height=4cm]{RL}
+		%\caption{Reinforced learning loop}
+	%\end{figure}
+%\end{frame}
+\begin{frame}
+	\frametitle{\textbf{Model development}}
+	\begin{itemize}
+	\item Design the probability density function through a finite mixture model of G components.
+		\begin{equation}
+			f(x_i;\Psi) = \sum\limits_{k=1}^{G} \pi_{k}f_{k}\left(x_{i}; \theta_{k} \right)	
+		\end{equation} 
+	
+	In this case $\Psi = \left\{\pi_{1}, ..., \pi_{G-1}, \theta_{1},....,\theta_{G}\right\}$ are the parameters of the mixture model. $f_{k}\left(x_{i}; \theta_{k}\right)$ is the kth component density for observation \textbf{$x_{i}$} with parameter vector \textbf{$\theta_{k} = \left\{\underline{\mu}_{k}, \sum_{k}\right\}$}.		
+	\end{itemize}
+\end{frame}
+\begin{frame}
+	\frametitle{\textbf{Cont'd}}
+	\begin{itemize}
+		\item Mixing weights or probabilities $\left(\pi_{1}, ..., \pi_{G-1}\right)$ (such that $\pi_{k} > 0, \sum\limits_{k=1}^{G} \pi_{k} = 1$) and G is the number of mixture components.
+		\item Compute the membership weights given parameters $\Psi$:
+		\begin{equation}
+			w_{ik} = p\left(z_{ik} = 1|\underline{x}_{i},\Psi\right) = \frac{p_{k}\left(\underline{x}_{i}|z_{k}, \theta_{k}\right).\pi_{k}}{\sum\limits_{m=1}^{K} p_{m}\left(\underline{x}_{i}|z_{m}, \theta_{m}\right).\pi_{m}}
+		\end{equation}
+	\end{itemize}
+\end{frame}
+\begin{frame}
+	\frametitle{\textbf{Cont'd}}
+	\begin{itemize}
+		\item Define the Expectation-Maximization (EM) algorithm. Start from some initial estimate of $\Psi$ (random), update $\Psi$ iteratively until convergence is detected.
+		\item E-Step: Denote the current parameter values as $\Psi$, compute $w_{ik}$ for all data points $\underline{x}_{i}, 1 \le i \le N$ and all mixture components $1 \le k \le K$ to yield an $N \times K$ matrix of membership weights. Calculate the expected value of the log-likelihood function given the current parameter estimates,
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{\textbf{Cont'd}}
+	\begin{itemize}
+		\item M-Step: Use the membership weights and the data to calculate new parameter values. Update the parameter estimates to maximize the expected log-likelihood calculated in the E-Step. 
+		\begin{equation}
+			N_{k} = \sum_{i=1}^{N}w_{ik}
+		\end{equation}
+	The sum of the membership weights for the kth component - this is the effective number of data points assigned to component k.
+	\item Compute the new mixture weights
+	\begin{equation}
+		\pi_{k}^{new} = \frac{N_{k}}{N}, 1 \le k \le K
+	\end{equation}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{\textbf{Cont'd}}
+	\begin{itemize}
+		\item Update the mean
+		\begin{equation}
+			\underline{\mu}_{k}^{new} = \left(\frac{1}{N_{k}}\right)\sum_{i=1}^{N} w_{ik}.\underline{x}_{i} 1 \le k \le K
+		\end{equation}
+	\item Compute the Covariance matrix
+	\begin{equation}
+		\sum_{k}^{new} = \left(\frac{1}{N_{k}}\right)\sum_{i=1}^{N}w_{ik}.\left(\underline{x}_{i}-\underline{\mu}_{k}^{new}\right)(\underline{x}_{i}-\underline{\mu}_{k}^{new})^{t} 1 \le k \le K
+	\end{equation}
+Equation 6 requires first compute the K new $\pi$'s, then the K new $\underline{\mu}_{k}$'s and finally the K new $\sum_{k}$'s.
+	\end{itemize}
+\end{frame}
+
+\subsection{Data Analysis}
+\begin{frame}
+	\frametitle{Data Analysis}
+	\begin{itemize}
+		\item The developed model will be implemented using Python programming language.
+		\item The Expectation-Maximization algorithm will be used for parameter estimation.
+		\item Initialize the GMM with the desired number of components using techniques such as, Bayesian Information Criteria (BIC) \cite{fraley1998many}, Integrated complete-data likelihood criteria (ICL) \cite{biernacki2000assessing}
+		\item Quantitative results will inform the development and evaluation of the model.
+	\end{itemize}
+\end{frame}
+
+\subsection{Data Source}
+\begin{frame}
+	\frametitle{Data Source}
+	\begin{itemize}
+		\item Economic data will be sourced from different sources such as the Kenya National Bureau of Statistics, World bank, and international trade databases for GDP Growth Rate, unemployment rate, and trade balance data; Central bank of Kenya and foreign investment reports for Interest rate, Exchange Rate, Foreign Direct Investment (FDI)
+	\end{itemize}
+\end{frame}
+
+
+
+					
+\section{References}
+\begin{frame}{Selected References}
+%[allowframebreaks]
+   \small
+	\bibliographystyle{apa}
+	\bibliography{henrythesisPhD.bib}
+	
+\end{frame}
+
+
+	\begin{frame}[plain]
+		\begin{center}
+			\LARGE{THANK YOU\\}
+		\end{center}
+	\end{frame}
+\end{document}

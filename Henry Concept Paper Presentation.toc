@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Description of proposed study}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Statement of Research Question}{4}{0}{1}
+\beamer@sectionintoc {2}{Introduction and Rationale}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Statement of the Problem}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Objectives of the study}{9}{0}{2}
+\beamer@sectionintoc {3}{Materials and Methods}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Model development}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Data Analysis}{15}{0}{3}
+\beamer@subsectionintoc {3}{3}{Data Source}{16}{0}{3}
+\beamer@sectionintoc {4}{References}{17}{0}{4}

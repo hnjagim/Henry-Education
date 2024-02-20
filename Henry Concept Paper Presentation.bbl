@@ -1,0 +1,34 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Biernacki et~al.}{2000}]{biernacki2000assessing}
+Biernacki, C., Celeux, G., and Govaert, G. (2000).
+\newblock Assessing a mixture model for clustering with the integrated
+  completed likelihood.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  22(7):719--725.
+
+\bibitem[\protect\astroncite{Fraley and Raftery}{1998}]{fraley1998many}
+Fraley, C. and Raftery, A.~E. (1998).
+\newblock How many clusters? which clustering method? answers via model-based
+  cluster analysis.
+\newblock {\em The computer journal}, 41(8):578--588.
+
+\bibitem[\protect\astroncite{L{\'o}pez-Oriona and
+  Vilar}{2021}]{lopez2021quantile}
+L{\'o}pez-Oriona, {\'A}. and Vilar, J.~A. (2021).
+\newblock Quantile cross-spectral density: A novel and effective tool for
+  clustering multivariate time series.
+\newblock {\em Expert Systems with Applications}, 185:115677.
+
+\bibitem[\protect\astroncite{L{\'o}pez-Oriona et~al.}{2022}]{lopez2022quantile}
+L{\'o}pez-Oriona, {\'A}., Vilar, J.~A., and D'Urso, P. (2022).
+\newblock Quantile-based fuzzy clustering of multivariate time series in the
+  frequency domain.
+\newblock {\em Fuzzy Sets and Systems}, 443:115--154.
+
+\bibitem[\protect\astroncite{Musau et~al.}{2022}]{musau2022clustering}
+Musau, V.~M., Gaetan, C., and Girardi, P. (2022).
+\newblock Clustering of bivariate satellite time series: A quantile approach.
+\newblock {\em Environmetrics}, 33(7):e2755.
+
+\end{thebibliography}
