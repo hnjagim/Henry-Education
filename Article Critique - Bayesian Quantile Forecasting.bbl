@@ -1,0 +1,49 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Chen and Watanabe}{2019}]{chen2019bayesian}
+Chen, C. W.~S. and Watanabe, T. (2019).
+\newblock Bayesian modeling and forecasting of value-at-risk via threshold
+  realized volatility.
+\newblock {\em Applied Stochastic Models in Business and Industry},
+  35(3):747--765.
+
+\bibitem[\protect\astroncite{Chen et~al.}{2021}]{chen2021bayesian}
+Chen, C. W.~S., Watanabe, T., and Lin, E. M.~H. (2021).
+\newblock Bayesian estimation of realized garch-type models with application to
+  financial tail risk management.
+\newblock {\em Econometrics and Statistics}.
+
+\bibitem[\protect\astroncite{Christoffersen}{1998}]{christoffersen1998evaluating}
+Christoffersen, P.~F. (1998).
+\newblock Evaluating interval forecasts.
+\newblock {\em International economic review}, pages 841--862.
+
+\bibitem[\protect\astroncite{Embrechts et~al.}{2005}]{embrechts2005strategic}
+Embrechts, P., Kaufmann, R., and Patie, P. (2005).
+\newblock Strategic long-term financial risks: Single risk factors.
+\newblock {\em Computational optimization and applications}, 32:61--90.
+
+\bibitem[\protect\astroncite{Engle and Manganelli}{2004}]{engle2004caviar}
+Engle, R.~F. and Manganelli, S. (2004).
+\newblock Caviar: Conditional autoregressive value at risk by regression
+  quantiles.
+\newblock {\em Journal of business \& economic statistics}, 22(4):367--381.
+
+\bibitem[\protect\astroncite{Hansen et~al.}{2012}]{hansen2012realized}
+Hansen, P.~R., Huang, Z., and Shek, H.~H. (2012).
+\newblock Realized garch: a joint model for returns and realized measures of
+  volatility.
+\newblock {\em Journal of Applied Econometrics}, 27(6):877--906.
+
+\bibitem[\protect\astroncite{Patton}{2011}]{patton2011volatility}
+Patton, A.~J. (2011).
+\newblock Volatility forecast comparison using imperfect volatility proxies.
+\newblock {\em Journal of Econometrics}, 160(1):246--256.
+
+\bibitem[\protect\astroncite{Takahashi et~al.}{2016}]{takahashi2016volatility}
+Takahashi, M., Watanabe, T., and Omori, Y. (2016).
+\newblock Volatility and quantile forecasts by realized stochastic volatility
+  models with generalized hyperbolic distribution.
+\newblock {\em International Journal of Forecasting}, 32(2):437--457.
+
+\end{thebibliography}

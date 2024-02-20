@@ -1,0 +1,83 @@
+@Article{chen2019bayesian,
+  author    = {Chen, Cathy W. S. and Watanabe, Toshiaki},
+  journal   = {Applied Stochastic Models in Business and Industry},
+  title     = {Bayesian modeling and forecasting of Value-at-Risk via threshold realized volatility},
+  year      = {2019},
+  number    = {3},
+  pages     = {747--765},
+  volume    = {35},
+  publisher = {Wiley Online Library},
+}
+
+@Article{christoffersen1998evaluating,
+  author    = {Christoffersen, Peter F.},
+  journal   = {International economic review},
+  title     = {Evaluating interval forecasts},
+  year      = {1998},
+  pages     = {841--862},
+  publisher = {JSTOR},
+}
+
+@Article{engle2004caviar,
+  author    = {Engle, Robert F. and Manganelli, Simone},
+  journal   = {Journal of business \& economic statistics},
+  title     = {CAViaR: Conditional autoregressive value at risk by regression quantiles},
+  year      = {2004},
+  number    = {4},
+  pages     = {367--381},
+  volume    = {22},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{embrechts2005strategic,
+  author    = {Embrechts, Paul and Kaufmann, Roger and Patie, Pierre},
+  journal   = {Computational optimization and applications},
+  title     = {Strategic long-term financial risks: Single risk factors},
+  year      = {2005},
+  pages     = {61--90},
+  volume    = {32},
+  publisher = {Springer},
+}
+
+@Article{takahashi2016volatility,
+  author    = {Takahashi, Makoto and Watanabe, Toshiaki and Omori, Yasuhiro},
+  journal   = {International Journal of Forecasting},
+  title     = {Volatility and quantile forecasts by realized stochastic volatility models with generalized hyperbolic distribution},
+  year      = {2016},
+  number    = {2},
+  pages     = {437--457},
+  volume    = {32},
+  publisher = {Elsevier},
+}
+
+@Article{patton2011volatility,
+  author    = {Patton, Andrew J},
+  journal   = {Journal of Econometrics},
+  title     = {Volatility forecast comparison using imperfect volatility proxies},
+  year      = {2011},
+  number    = {1},
+  pages     = {246--256},
+  volume    = {160},
+  publisher = {Elsevier},
+}
+
+@Article{chen2021bayesian,
+  author    = {Chen, Cathy W. S. and Watanabe, Toshiaki and Lin, Edward M. H.},
+  journal   = {Econometrics and Statistics},
+  title     = {Bayesian estimation of realized GARCH-type models with application to financial tail risk management},
+  year      = {2021},
+  publisher = {Elsevier},
+}
+
+@Article{hansen2012realized,
+  author    = {Hansen, Peter Reinhard and Huang, Zhuo and Shek, Howard Howan},
+  journal   = {Journal of Applied Econometrics},
+  title     = {Realized GARCH: a joint model for returns and realized measures of volatility},
+  year      = {2012},
+  number    = {6},
+  pages     = {877--906},
+  volume    = {27},
+  publisher = {Wiley Online Library},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

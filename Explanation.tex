@@ -1,0 +1,227 @@
+ % Preview source code
+
+%% LyX 2.1.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,a4paper,english]{report}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[LGR,T1]{fontenc}
+\usepackage{inputenc}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{rotating}
+\usepackage{subcaption}
+\usepackage{pdfpages}
+\setlength{\parskip}{\bigskipamount}
+\usepackage{tabto}
+\setlength{\parindent}{0pt}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{geometry}
+\geometry{verbose,tmargin=22mm,bmargin=25mm,lmargin=22mm,rmargin=22mm}
+%\usepackage[landscape]{geometry}
+\usepackage{amssymb,amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+%\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multirow,booktabs,setspace,caption}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{bbm}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\DeclareCaptionLabelSeparator*{spaced}{\\[2ex]}
+%\usepackage{Sweave}
+\usepackage{setspace}
+\usepackage[authoryear]{natbib}
+%\usepackage[numbers]{natbib}
+\usepackage{nomencl}
+%\usepackage[british]{babel}
+%\usepackage{csquotes}
+%\usepackage[style=apa]{biblatex}
+%\DeclareLanguageMapping{british}{british-apa}
+%\usepackage[square,sort,comma,numbers]{natbib}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\setcounter{section}{0}
+\renewcommand{\thesection}{\arabic{section}\quad|}
+\renewcommand{\thesubsection}{\alph{subsection})}
+\renewcommand{\thesubsubsection}{\roman{subsubsection})}
+
+\makenomenclature
+\doublespacing
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\pdfpageheight\paperheight
+\pdfpagewidth\paperwidth
+
+\DeclareRobustCommand{\greektext}{%
+	\fontencoding{LGR}\selectfont\def\encodingdefault{LGR}}
+\DeclareRobustCommand{\textgreek}[1]{\leavevmode{%
+		\IfFileExists{grtm10.tfm}{}{\fontfamily{cmr}}\greektext #1}}
+\DeclareFontEncoding{LGR}{}{}
+\DeclareTextSymbol{\~}{LGR}{126}
+\newcommand{\lyxmathsym}[1]{\ifmmode\begingroup\def\b@ld{bold}
+	\text{\ifx\math@version\b@ld\bfseries\fi#1}\endgroup\else#1\fi}
+
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\numberwithin{table}{section}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+\@ifundefined{date}{}{\date{}}
+\makeatother
+\usepackage{mathtools}
+\usepackage{babel}
+\usepackage{setspace}
+\usepackage{titlesec}
+\setstretch{4.0}
+\usepackage[bottom]{footmisc}
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{xparse}% http://ctan.org/pkg/xparse
+\NewDocumentCommand{\myrule}{O{1pt} O{3pt} O{black}}{%
+	\par\nobreak % don't break a page here
+	\kern\the\prevdepth % don't take into account the depth of the preceding line
+	\kern#2 % space before the rule
+	{\color{#3}\hrule height #1 width\hsize} % the rule
+	\kern#2 % space after the rule
+	\nointerlineskip % no additional space after the rule
+}
+
+\begin{document}
+	\doublespacing
+	%\begin{figure}[h]
+	%\vspace{1cm}
+	%\centering
+	%\includegraphics[width=0.2\textwidth]{jk}
+	%\end{figure}
+	\vspace{-1cm}
+	\begin{center}
+		\textbf{KIRINYAGA UNIVERSITY \\ \vspace{0.1cm}  DOCTOR OF PHILOSOPHY IN STATISTICS}	
+	\end{center}
+	\vspace{-0.8cm}
+	\begin{center}
+		\textbf{STA 4101: RESEARCH METHODOLOGY \\ \vspace{0.1cm} ARTICLE SUMMARY AND CRITIQUE}
+	\end{center}
+	\begin{center}
+		\textbf{PREPARED BY: KIPNGETICH GIDEON \\ \vspace{0.1cm} \tabto{2cm} PA/301/S/17846/2022}
+	\end{center}
+	\vspace{-1cm}
+	\noindent\makebox[\linewidth]{\rule{\textwidth}{3pt}}
+	\doublespacing
+	\begin{center}
+		\textbf{Bayesian Quantile Forecasting via the Realized Hysteretic GARCH Model}
+	\end{center}
+	\textbf{Lead article} : Chen, C. W. S., \& Watanabe, T. (2019). Bayesian modeling and forecasting
+	of value-at-risk via threshold realized volatility. Applied
+	Stochastic Models in Business and Industry, 35, 747–765.
+	\section{Article Summary}
+	\subsection{Introduction}
+	The study developed a Bayesian Quantile Forecasting via the Realized Hysteretic GARCH Model the development of the proposed model was motivated by the model studied by Chen 2019 who investigate the realized two-regime threshold GARCH model (R-TGARCH). The model presents explosive persistence and high volatility in Regime 1 in order to capture extreme cases.
+	\titleformat{\section}[runin]{\normalfont\bfseries}{\thesection}{1em}{}[:]
+	\section*{How the model work} The model setup allows the mean and volatility switching in a regime to be delayed when the hysteresis variable lies in a hysteresis zone.
+	
+	\titleformat{\section}[runin]{\normalfont\bfseries}{\thesection}{1em}{}[:]
+	\section*{General Objective} To develop realized hysteretic GARCH Model for Bayesian quantile forecasting
+	
+	\subsubsection*{Specific Objective}
+	\begin{enumerate}[label=\roman*)]
+		\item To develop realized hysteretic GARCH Model
+		\item To estimate the model parameters and forecast the
+		quantiles of returns and volatility (\textbf{Simulation study was done-Bayesian Markov chain
+			Monte Carlo (MCMC) procedure})
+		\item To determine the performance of the model (\textbf{Here the model was fitted to stock prices datasets from four markets i.e., Japan, South Korea, United Kingdom and United States of America and results compared with R-GARCH and R-TGARCH model results})
+	\end{enumerate}
+	\subsection{Methodology}
+	The article extended the R-GARCH model \cite{chen2019bayesian}, by introducing hysteresis concept to R-TGARCH to develop R-HGARCH. Bayesian Markov Chain Monte Carlo (MCMC) procedure to estimate model parameters and obtain volatility, VaR and ES forecast. Evaluation of VaR for volatility forecast and quantile forecast, VRate was used. To assess the accuracy of VaR estimation, backtesting methods; CC test \cite{christoffersen1998evaluating} and DQ test \cite{engle2004caviar} were used. Evaluation of ES was done using two measures $V_{1}(\alpha)$ which takes VaR estimates and $V_{2}(\alpha)$ which is a penalty term and depends on VaR estimates \cite{embrechts2005strategic,takahashi2016volatility}. The evaluation of volatility was done using two loss functions; MSE and QLIKE \cite{patton2011volatility}.
+	
+	\subsection{Findings}
+	\subsubsection{Simulation study}
+	To justify the performance of the proposed Bayesian approach with the parameter estimates and tail risk measures from the R-HGARCH
+	models. The study considered three scenarios in simulation study: (i) different variant hysteresis zones, (ii) highest volatility and explosive volatility persistence in Regime 1, and (iii) using a misspecified model. Simulation study assessed whether parameter estimation, VaR, and ES forecasting via the Bayesian MCMC methods are approximate to the true values.
+	
+	To assess the forecasting performance, modified version
+	of the MAPE to assess the performance of VaR and ES \cite{chen2021bayesian} was adopted. The study checked the performance of the proposed method under the different hysteretic zones. Results confirm that the posterior estimates are not significantly far away from their true values. Proposed R-HGARCH model was fitted to estimate the unknown parameters' underlying process generated by the R-TGARCH model. The results showed that the estimates are close to the true value, except the threshold value which indicates the robust properties of the estimators under model misspecification. 
+	
+	VaR and ES were calculated at $\alpha = 1\%,5\%$ and MAPE estimated to assess the performance of forecasting risk measures. Results showed excellent prediction accuracy for VaR and ES because all averages of MAPE measurements were less than 5\% save for explosive regime in Regime ES MAPE at 1\% level which suffers a little bit of loss in accuracy. An MAPE lower or close to 5\% indicate consistency and robustness of the proposed Bayesian methods.
+	
+	\subsubsection{Empirical Example to test the R-HGARCH model}
+	The study evaluates the performance of R-HGARCH model
+	using daily returns and realized measures for four stock
+	markets: Japan (Nikkei 225), South Korea (KOSPI), the United Kingdom (FTSE 100), and the United States (DJIA), data spanning from January 4, 2010, to December 31, 2020. Two competing models, R-GARCH and realized two-regime threshold GARCH were considered for comparison of the performance of tail forecasting. 
+	
+	The study carried out Bayesian risk forecasting via predictive distributions on four stock markets, and results showed that realized hysteretic GARCH model outperforms the realized GARCH and the realized threshold GARCH at the 1\% level in terms of violation rates and backtests.
+	
+	R-TGARCH model performs superior for Nikkei 225 and DJIA. The R-HGARCH model has the highest ranking performance for KOSPI and FTSE 100 when the evaluation of ES is at the 1\% significance level. Root MSE (RMSE) and QLIKE for four target series shows the R-HGARCH model works splendidly in the US and UK stock markets in terms of the lowest RMSE values. The R-TGARCH model performs well in the two Asia markets under the RMSE and QLIKE criteria.
+	
+	\section{Expalanation of Terms}
+	GARCH (Generalized Autoregressive Conditional Heteroskedasticity) models in financial modeling are used to estimate and forecast time-varying volatility in financial markets. They are useful for capturing the stylized fact that financial returns often exhibit volatility clustering, \textit{\textbf{meaning that periods of high volatility tend to be followed by other periods of high volatility, and periods of low volatility tend to be followed by other periods of low volatility.}}
+	
+	Volatility refers to the degree of variation or fluctuation in the price or value of an asset over time. There are many potential causes of volatility in financial markets, including:
+	\begin{enumerate}[label=\roman*)]
+		\item Economic fundamentals: Changes in economic conditions, such as shifts in interest rates, inflation, or GDP growth, can lead to changes in market expectations and uncertainty, which can result in increased volatility.
+		\item Political events: Geopolitical events such as elections, changes in government policy, or geopolitical tensions can affect market sentiment and cause volatility.
+		\item Company-specific factors: Changes in a company's financial performance, such as earnings reports, management changes, or unexpected events, can cause volatility in its stock price.
+		\item Market sentiment: The mood or outlook of investors, as reflected in their buying and selling behavior, can affect market volatility. For example, a widespread fear or optimism about the future direction of the market can lead to changes in volatility.
+		\item Technical factors: Changes in trading patterns, such as changes in liquidity, trading volume, or trading algorithms, can affect volatility.
+		\item Natural disasters: Unforeseen natural disasters or events can affect the economy, and market volatility.
+	\end{enumerate}
+	
+	Within the framework of GARCH models, "realized hysteretic" refer to a situation in which the current level of volatility depends not only on current and past values of the returns, but also on the path that the returns took to get to their current value. This path dependence can result from the presence of hysteresis or memory effects in the dynamics of the underlying asset.
+	
+	For example, in some GARCH models, the current level of volatility may depend on the difference between the current return and the expected return, as well as on the squared deviation of the past returns from their expected values. If the past returns exhibit hysteresis, meaning that the current value of the return depends on the path that it took to get there, then this can lead to "realized hysteretic" behavior in the volatility dynamics. This type of behavior can be important to consider when estimating and forecasting volatility in financial markets, as it can affect the accuracy of the predictions and the effectiveness of risk management strategies.
+	
+	\subsubsection*{Returns}
+	"Returns" refer to the profits or losses generated by an investment over a period of time. Returns are typically measured as a percentage of the initial investment.
+	
+	include:
+	\begin{enumerate}[label=\roman*)]
+		\item \textbf{Total Return}: This measures the overall change in value of an investment over a period of time, including both capital appreciation (increase in value) and income (such as dividends or interest payments).
+		
+		\textbf{Total Return = (Current value of investment - Initial investment) / Initial investment}
+		\item \textbf{Annualized Return}: This calculates the average return an investment has generated per year over a period of time, assuming compounding of returns.
+		
+		\textbf{$\text{Annualized Return} = ((\text{Ending value} / \text{Beginning value}) ^{ (1 / \text{Number of years})}) - 1$}
+		\item \textbf{Real Return}: This measures the return on an investment adjusted for inflation, which gives a more accurate representation of the investment's purchasing power.
+		
+		\textbf{Real Return = ((1 + Nominal Return) / (1 + Inflation Rate)) - 1}
+		\item \textbf{Risk-Adjusted Return}: This takes into account the level of risk involved in an investment, comparing the returns generated to the amount of risk taken on.
+		
+		\textbf{Risk-Adjusted Return = (Investment Return - Risk-Free Rate) / Investment Standard Deviation}
+	\end{enumerate}
+	Returns are a critical component of financial modeling, as they are used to evaluate the performance of different investment opportunities and help investors make informed decisions about where to allocate their capital.
+	
+	\subsubsection*{Squared returns} 
+	Are commonly used in financial modeling to measure volatility or risk. The squared returns are calculated by squaring the difference between the current price and the previous price, and then dividing by the previous price.
+	
+	The formula for calculating squared returns is as follows:
+	$$(P_t - P_{t-1})^2 / P_{t-1}$$
+	
+	where $P_t$ is the price at time t and $P_{t-1}$ is the price at time t-1.
+	
+	Squared returns are used to calculate the variance and standard deviation of returns. Variance is the average of squared deviations from the mean, while standard deviation is the square root of variance. Both variance and standard deviation are measures of volatility, and they are important in financial modeling because they help investors and analysts to assess the risk of an investment.
+	
+	Squared returns can also be used in other financial models, such as options pricing models and risk management models. In these models, squared returns are used to estimate the probability of different outcomes and to calculate the value of various financial instruments.
+	\begin{center}
+		\bibliographystyle{apa}
+		%\addcontentsline{toc}{section}{biblio}
+		\bibliography{Critique}
+		%\addbibresource{referencing}
+	\end{center}
+	\noindent\makebox[\linewidth]{\rule{\textwidth}{5pt}}	
+	\copyright Research 2022/2023
+\end{document}

@@ -1,0 +1,215 @@
+ % Preview source code
+
+%% LyX 2.1.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,a4paper,english]{report}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[LGR,T1]{fontenc}
+\usepackage{inputenc}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{rotating}
+\usepackage{subcaption}
+\usepackage{pdfpages}
+\setlength{\parskip}{\bigskipamount}
+\usepackage{tabto}
+\setlength{\parindent}{0pt}
+\usepackage{float}
+\usepackage{textcomp}
+\usepackage{geometry}
+\geometry{verbose,tmargin=22mm,bmargin=25mm,lmargin=22mm,rmargin=22mm}
+%\usepackage[landscape]{geometry}
+\usepackage{amssymb,amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+%\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{multirow,booktabs,setspace,caption}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{bbm}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\DeclareCaptionLabelSeparator*{spaced}{\\[2ex]}
+%\usepackage{Sweave}
+\usepackage{setspace}
+\usepackage[authoryear]{natbib}
+%\usepackage[numbers]{natbib}
+\usepackage{nomencl}
+%\usepackage[british]{babel}
+%\usepackage{csquotes}
+%\usepackage[style=apa]{biblatex}
+%\DeclareLanguageMapping{british}{british-apa}
+%\usepackage[square,sort,comma,numbers]{natbib}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\setcounter{section}{0}
+\renewcommand{\thesection}{\arabic{section}\quad|}
+\renewcommand{\thesubsection}{\alph{subsection})}
+\renewcommand{\thesubsubsection}{\roman{subsubsection})}
+
+\makenomenclature
+\doublespacing
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\pdfpageheight\paperheight
+\pdfpagewidth\paperwidth
+
+\DeclareRobustCommand{\greektext}{%
+	\fontencoding{LGR}\selectfont\def\encodingdefault{LGR}}
+\DeclareRobustCommand{\textgreek}[1]{\leavevmode{%
+		\IfFileExists{grtm10.tfm}{}{\fontfamily{cmr}}\greektext #1}}
+\DeclareFontEncoding{LGR}{}{}
+\DeclareTextSymbol{\~}{LGR}{126}
+\newcommand{\lyxmathsym}[1]{\ifmmode\begingroup\def\b@ld{bold}
+	\text{\ifx\math@version\b@ld\bfseries\fi#1}\endgroup\else#1\fi}
+
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\numberwithin{table}{section}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+\@ifundefined{date}{}{\date{}}
+\makeatother
+\usepackage{mathtools}
+\usepackage{babel}
+\usepackage{setspace}
+\usepackage{titlesec}
+\setstretch{4.0}
+\usepackage[bottom]{footmisc}
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+\usepackage{xparse}% http://ctan.org/pkg/xparse
+\NewDocumentCommand{\myrule}{O{1pt} O{3pt} O{black}}{%
+	\par\nobreak % don't break a page here
+	\kern\the\prevdepth % don't take into account the depth of the preceding line
+	\kern#2 % space before the rule
+	{\color{#3}\hrule height #1 width\hsize} % the rule
+	\kern#2 % space after the rule
+	\nointerlineskip % no additional space after the rule
+	\renewcommand\bibname{Reference}
+}
+
+\begin{document}
+	\doublespacing
+	%\begin{figure}[h]
+	%\vspace{1cm}
+	%\centering
+	%\includegraphics[width=0.2\textwidth]{jk}
+	%\end{figure}
+	\vspace{-1cm}
+	\begin{center}
+		\textbf{KIRINYAGA UNIVERSITY \\ \vspace{0.1cm}  DOCTOR OF PHILOSOPHY IN STATISTICS}	
+	\end{center}
+	\vspace{-0.8cm}
+	\begin{center}
+		\textbf{STA 4101: RESEARCH METHODOLOGY \\ \vspace{0.1cm} THESIS CONCEPT PAPER}
+	\end{center}
+     \begin{center}
+	\textbf{PREPARED BY: NJAGI HENRY MURIMI \\ \vspace{0.1cm} \tabto{2cm} PA/301/S/21076/2023}
+     \end{center}
+	\vspace{-1cm}
+	\noindent\makebox[\linewidth]{\rule{\textwidth}{3pt}}
+	\doublespacing
+	
+	\textbf{Article}:Bayesian Quantile Forecasting via the Realized Hysteretic GARCH Model
+	
+    \textbf{Lead article} : Chen, C. W. S., \& Watanabe, T. (2019). Bayesian modeling and forecasting
+    of value-at-risk via threshold realized volatility. Applied
+    Stochastic Models in Business and Industry, 35, 747–765.
+    \section{Summary}
+	\subsection{Introduction}
+	The study developed a Bayesian Quantile Forecasting via the Realized Hysteretic GARCH Model, the development of the proposed model was motivated by the model proposed by Chen 2019 who investigate the realized two-regime threshold GARCH model (R-TGARCH). The model presents explosive persistence and high volatility in Regime 1 in order to capture extreme cases in the data.
+	\titleformat{\section}[runin]{\normalfont\bfseries}{\thesection}{1em}{}[:]
+	\section*{How the model work} The model setup allows the mean and volatility switching in a regime to be delayed when the hysteresis variable lies in a hysteresis zone.
+	
+	\titleformat{\section}[runin]{\normalfont\bfseries}{\thesection}{1em}{}[:]
+	\section*{General Objective} To develop realized hysteretic GARCH Model for Bayesian quantile forecasting
+	
+	\subsubsection*{Specific Objective}
+	\begin{enumerate}[label=\roman*)]
+		\item To develop realized hysteretic GARCH Model
+		\item To estimate the model parameters and evaluate forecast the quantile forecast of volatility (\textbf{Simulation study was done-Bayesian Markov chain
+			Monte Carlo (MCMC) procedure})
+		\item To determine the performance of the model (\textbf{Here the model was fitted to stock prices datasets from four markets i.e., Japan, South Korea, UK and US and results compared with R-GARCH and R-TGARCH model results})
+	\end{enumerate}
+	\section{Methodology}
+	The article extended the R-GARCH model \cite{chen2019bayesian}, by introducing hysteresis concept to R-GARCH to develop R-HGARCH, this model combine daily returns and realized kernel in the three regime nonlinear model. Bayesian Markov Chain Monte Carlo (MCMC) procedure to estimate model parameters and obtain volatility, VaR and ES forecast. Evaluation of VaR for volatility forecast and quantile forecast, VRate was used. To assess the accuracy of VaR estimation, backtesting methods; CC test \cite{christoffersen1998evaluating} and DQ test \cite{engle2004caviar} were used. Evaluation of ES was done using two measures $V_{1}(\alpha)$ which takes VaR estimates and $V_{2}(\alpha)$ which is a penalty term and depends on VaR estimates \cite{embrechts2005strategic,takahashi2016volatility}. The evaluation of volatility was done using two loss functions; MSE and QLIKE \cite{patton2011volatility}.
+	 
+	\section{Findings}
+	\subsection{Simulation study}
+	To justify the performance of the proposed Bayesian approach with the parameter estimates and tail risk measures from the R-HGARCH
+	models. The study considered three scenarios in simulation study: (i) different variant hysteresis zones, (ii) highest volatility and explosive volatility persistence in Regime 1, and (iii) using a misspecified model. Simulation study assessed whether parameter estimation, VaR, and ES forecasting via the Bayesian MCMC methods are approximate to the true values.
+	
+	To assess the forecasting performance, modified version
+	of the MAPE to assess the performance of VaR and ES \cite{chen2021bayesian} was adopted. The study checked the performance of the proposed method under the different hysteretic zones. Results confirm that the posterior estimates are not significantly far away from their true values. Proposed R-HGARCH model was fitted to estimate the unknown parameters' underlying process generated by the R-TGARCH model. The results showed that the estimates are close to the true value, except the threshold value which indicates the robust properties of the estimators under model misspecification. 
+	
+	VaR and ES were calculated at $\alpha = 1\%,5\%$ and MAPE estimated to assess the performance of forecasting risk measures. Results showed excellent prediction accuracy for VaR and ES because all averages of MAPE measurements were less than 5\% save for explosive regime in Regime ES MAPE at 1\% level which suffers a little bit of loss in accuracy. An MAPE lower or close to 5\% indicate consistency and robustness of the proposed Bayesian methods.
+	
+	\subsection{Empirical Example to test the R-HGARCH model}
+	The study evaluates the performance of R-HGARCH model
+	using daily returns and realized measures for four stock
+	markets: Japan (Nikkei 225), South Korea (KOSPI), the United Kingdom (FTSE 100), and the United States (DJIA), data spanning from January 4, 2010, to December 31, 2020. Two competing models, R-GARCH and realized two-regime threshold GARCH were considered for comparison of the performance of tail forecasting. 
+	
+	The study carried out Bayesian risk forecasting via predictive distributions on four stock markets, and results showed that realized hysteretic GARCH model outperforms the realized GARCH and the realized threshold GARCH at the 1\% level in terms of violation rates and backtests.
+	
+	R-TGARCH model performs superior for Nikkei 225 and DJIA. The R-HGARCH model has the highest ranking performance for KOSPI and FTSE 100 when the evaluation of ES is at the 1\% significance level. Root MSE (RMSE) and QLIKE for four target series shows that the R-HGARCH model works splendidly in the US and UK stock markets in terms of the lowest RMSE values. The R-TGARCH model performs well in the two Asia markets under the RMSE and QLIKE criteria.
+	
+	\section{Conclusion}
+	Results indicate that R-HGARCH model outperforms
+	among the realized models at the 1\% level in terms
+	of VRates and backtests. However, there is no clear winner based
+	on the performance in ES. When the evaluation of ES is
+	at the 1\% significance level, the R-HGARCH model has
+	the best performance for KOSPI and DJIA and the realized
+	two-regime threshold GARCH model performs the
+	best for Nikkei 225 and FTSE 100. The R-HGARCH
+	model performs well in the US and UK stock markets
+	based on RMSE, while the R-TGARCH model performs
+	well in the two Asia stock markets. The study only focused on realized
+	single, two-regime, and hysteretic GARCH models
+	for comparison.
+	
+	\titleformat{\section}[runin]{\normalfont\bfseries}{\thesection}{1em}{}[:]
+	\section*{Study suggestion} For comparison, realized exponential
+	GARCH model and realized heterogeneous autoregressive GARCH model can be included for future studies\\
+	\noindent\makebox[\linewidth]{\rule{\textwidth}{3pt}}
+	\begin{center}
+		\textbf{Notes from the Article}
+	\end{center}
+   \section*{Strengths}\begin{enumerate}
+   	\item The study was able to develop a new model which is capable to do quantile forecasting when there is presence of hysteresis and the model has proved to work considerably well, however additional improvement is needed.
+   	\item The model was clearly explained, methodology clearly stated and the findings were presented in clearly and literature was enough to explain the problem. 
+   \end{enumerate}
+   
+   \section*{Limitations} \begin{enumerate}
+   	\item The model consider only one case of hysteresis caused by COVID-19 on stock prices, in this case the model cannot be conclusively recommended since other instance of hysteresis have not been consider such as unemployment so that one can be able to point out the performance of the model under different instances of hysteresis
+   	\item The model only shows better performance in US and UK stock market prices and poor performance in Asia stock markets, this shows less robustness of the model  
+   \end{enumerate}
+   \section*{Suggestion for model improvement} Since the model has been developed for a particular purpose i.e., volatility forecasting, the model might not be optimal for all stock markets and we have seeing on its poor performance on Asia stock markets. Therefore my proposal is adding a parameter into the model for market-specific information, this parameter will be sensitive to market change and adjust accordingly. Market-specific information includes market sentiment indicators, and macroeconomic data. This will potentially improve the model performance in different markets by making it more adaptive rather than it being static model.
+   \section*{Key references and their contributions} This study relied on two main article to develop new model which capture the effect of hysteresis, the two models were; \cite{hansen2012realized} who studied GARCH model with realized kernel and \cite{chen2019bayesian} who investigated the realized
+   two-regime threshold GARCH model, although this model was able to model and forecast data in two different regimes the model fall short of being able to capture the hysteresis on the stock market prices and this inform the idea of to extend the R-GARCH for the model to be able to capture realized hysteresis.
+   
+    
+	\begin{center}
+		\bibliographystyle{apa}
+		%\addcontentsline{toc}{section}{biblio}
+		\bibliography{Critique}
+		%\addbibresource{referencing}
+	\end{center}
+	\noindent\makebox[\linewidth]{\rule{\textwidth}{5pt}}	
+	\copyright Research 2022/2023
+\end{document}
