@@ -1,0 +1,111 @@
+\begin{thebibliography}{}
+
+\bibitem[Barrow et~al., 1978]{barrow1978unicity}
+Barrow, D.~L., Chui, C.~K., Smith, P.~W., and Ward, J.~D. (1978).
+\newblock Unicity of best mean approximation by second order splines with
+  variable knots.
+\newblock {\em Mathematics of Computation}, 32(144):1131--1143.
+
+\bibitem[Cressie, 2015]{cressie2015statistics}
+Cressie, N. (2015).
+\newblock {\em Statistics for spatial data}.
+\newblock John Wiley \& Sons.
+
+\bibitem[Doupe et~al., 2019]{doupe2019machine}
+Doupe, P., Faghmous, J., and Basu, S. (2019).
+\newblock Machine learning for health services researchers.
+\newblock {\em Value in Health}, 22(7):808--815.
+
+\bibitem[Fellingham et~al., 2015]{fellingham2015bayesian}
+Fellingham, G.~W., Kottas, A., and Hartman, B.~M. (2015).
+\newblock Bayesian nonparametric predictive modeling of group health claims.
+\newblock {\em Insurance: Mathematics and Economics}, 60:1--10.
+
+\bibitem[Fern{\'a}ndez-Casal et~al., 2018]{fernandez2018nonparametric}
+Fern{\'a}ndez-Casal, R., Castillo-P{\'a}ez, S., and Francisco-Fern{\'a}ndez, M.
+  (2018).
+\newblock Nonparametric geostatistical risk mapping.
+\newblock {\em Stochastic Environmental Research and Risk Assessment},
+  32(3):675--684.
+
+\bibitem[Hong and Martin, 2017]{hong2017flexible}
+Hong, L. and Martin, R. (2017).
+\newblock A flexible bayesian nonparametric model for predicting future
+  insurance claims.
+\newblock {\em North American Actuarial Journal}, 21(2):228--241.
+
+\bibitem[Huang et~al., 2011]{huang2011nonparametric}
+Huang, C., Hsing, T., and Cressie, N. (2011).
+\newblock Nonparametric estimation of the variogram and its spectrum.
+\newblock {\em Biometrika}, 98(4):775--789.
+
+\bibitem[Karcher and Wang, 2001]{karcher2001generalized}
+Karcher, P. and Wang, Y. (2001).
+\newblock Generalized nonparametric mixed effects models.
+\newblock {\em Journal of Computational and Graphical Statistics},
+  10(4):641--655.
+
+\bibitem[Laslett, 1994]{laslett1994kriging}
+Laslett, G.~M. (1994).
+\newblock Kriging and splines: an empirical comparison of their predictive
+  performance in some applications.
+\newblock {\em Journal of the American Statistical Association},
+  89(426):391--400.
+
+\bibitem[Lee and Durb{\'a}n, 2009]{Lee2009}
+Lee, D.-J. and Durb{\'a}n, M. (2009).
+\newblock Smooth-car mixed models for spatial count data.
+\newblock {\em Computational Statistics \& Data Analysis}, 53(8):2968--2979.
+
+\bibitem[Qadir and Sun, 2020]{qadir2020semiparametric}
+Qadir, G.~A. and Sun, Y. (2020).
+\newblock Semiparametric estimation of cross-covariance functions for
+  multivariate random fields.
+\newblock {\em Biometrics}.
+
+\bibitem[Rice and Wu, 2001]{rice2001nonparametric}
+Rice, J.~A. and Wu, C.~O. (2001).
+\newblock Nonparametric mixed effects models for unequally sampled noisy
+  curves.
+\newblock {\em Biometrics}, 57(1):253--259.
+
+\bibitem[Shen et~al., 1998]{shen1998local}
+Shen, X., Wolfe, D.~A., and Zhou, S. (1998).
+\newblock Local asymptotics for regression splines and confidence regions.
+\newblock {\em The annals of statistics}, 26(5):1760--1782.
+
+\bibitem[Tait and Woods, 2007]{tait2007spatial}
+Tait, A. and Woods, R. (2007).
+\newblock Spatial interpolation of daily potential evapotranspiration for new
+  zealand using a spline model.
+\newblock {\em Journal of Hydrometeorology}, 8(3):430--438.
+
+\bibitem[Wang et~al., 2016]{wang2016nonparametric}
+Wang, H., Lin, J., and Wang, J. (2016).
+\newblock Nonparametric spatial regression with spatial autoregressive error
+  structure.
+\newblock {\em Statistics}, 50(1):60--75.
+
+\bibitem[Wang et~al., 2012]{wang2012prediction}
+Wang, H., Wang, J., and Huang, B. (2012).
+\newblock Prediction for spatio-temporal models with autoregression in errors.
+\newblock {\em Journal of Nonparametric Statistics}, 24(1):217--244.
+
+\bibitem[Wang et~al., 2017]{wang2017efficient}
+Wang, H., Wu, Y., and Chan, E. (2017).
+\newblock Efficient estimation of nonparametric spatial models with general
+  correlation structures.
+\newblock {\em Australian \& New Zealand Journal of Statistics},
+  59(2):215--233.
+
+\bibitem[Wang, 2019]{wang2019smoothing}
+Wang, Y. (2019).
+\newblock {\em Smoothing splines: methods and applications}.
+\newblock Chapman and Hall/CRC.
+
+\bibitem[Yu et~al., 2007]{yu2007kernel}
+Yu, K., Mateu, J., and Porcu, E. (2007).
+\newblock A kernel-based method for nonparametric estimation of variograms.
+\newblock {\em Statistica Neerlandica}, 61(2):173--197.
+
+\end{thebibliography}

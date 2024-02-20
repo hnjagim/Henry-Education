@@ -1,0 +1,218 @@
+%\documentclass[sans-serif]{beamer}
+\documentclass[unknownkeysallowed]{beamer}
+%\usepackage[swedish]{babel}
+\mode<presentation>
+\usepackage{beamerthemesplit}
+\usepackage{caption}
+\usepackage{subcaption}
+\setbeamersize{text margin left=5mm,text margin right=5mm}
+%\usepackage{beamerthemeclassic}
+%\usecolortheme{Beaver}
+%\setbeamercolor{footnote}{fg=red}
+\setbeamertemplate{section in toc} [sections numbered]
+\setbeamertemplate{subsection in toc} [ball unnumbered]
+\setbeamertemplate{frametitle continuation}[from second][(cont.)]
+\usefonttheme{structurebold}
+%\setbeamercolor{title}{itshape.family=\rmfamily}
+%\setbeamercolor{footnote mark}{fg=red}
+\usetheme{Madrid}
+%\usefonttheme{default}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\setbeamercolor{footline}{fg=black,bg=gray}
+\addtobeamertemplate{navigation symbols}{}{ %
+	%\usebeamerfont{footline} %
+	%\usebeamercolor[fg]{footline} %
+	\hspace{1em} %
+	\insertframenumber\,/,\inserttotalframenumber}
+%\setbeamercolor{footline}{fg=white}
+\setbeamercolor{frametitle}{fg=black,bg=gray}
+\setbeamercolor{title}{fg=black,bg=lightgray}
+\setbeamercolor{author}{fg=black}
+\setbeamercolor{structure}{fg=black,bg=gray}
+\usepackage{graphicx}
+\usepackage{booktabs}
+%\usepackage{setspace}
+%\usepackage{pdflscape,multicol,multirow}
+%\usepackage{pdfpages}
+%\usepackage{apacite}
+\usepackage{natbib}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{setspace}
+\setstretch{1.5}
+
+\renewcommand{\bibname}{References}
+\renewcommand\footnoterule{{\color{black}\hrule height 1pt}}
+\setbeamertemplate{caption}[numbered]
+%\beamersetaveragebackground{white}
+\title[Article Critique]{\textbf{Critique}: \\Bayesian Quantile Forecasting via the Realized Hysteretic GARCH Model}
+
+\vspace{1cm}
+\author[KIPNGETICH GIDEON]{\large Presenter : KIPNGETICH GIDEON\\ \vspace{1cm}Lecturer: Dr. MARTIN KITHINJI}
+\date{\today}
+\begin{document}
+	\begin{frame}
+		\titlepage
+		\footnotetext{Kirinyaga University}
+	\end{frame}
+	\begin{frame}
+		\frametitle{\textbf{Presentation Outline}}
+		\tableofcontents{}
+	\end{frame}
+	%\section{Abstract}
+	%\begin{frame}
+	%\frametitle{\textbf{Abstract}}
+	
+	%\end{frame}
+	\section{Introduction}
+	%\subsection{Introduction}
+	\begin{frame}
+		\frametitle{\textbf{Introduction}}
+		\textbf{Lead article} : Chen, C. W. S., \& Watanabe, T. (2019). Bayesian modeling and forecasting
+		of value-at-risk via threshold realized volatility. Applied
+		Stochastic Models in Business and Industry, 35, 747–765.
+		\begin{itemize}
+			\item The study developed a Bayesian Quantile Forecasting via the Realized Hysteretic GARCH Model
+			\item The development of the proposed model was motivated by the model proposed by Chen 2019 who investigate the realized two-regime threshold GARCH model (R-TGARCH).
+	\end{itemize}	
+	\end{frame}
+\begin{frame}{Cont'}
+	\begin{itemize}
+		\item R- HGARCH, is
+		similar to a three-regime nonlinear framework combined with daily returns
+		and realized volatility. The setup allows the mean and volatility switching in a
+		regime to be delayed when the hysteresis variable lies in a hysteresis zone
+		\item Model presents explosive persistence and high volatility in Regime 1 in order to capture extreme cases in the data.
+		
+    \end{itemize}
+\textbf{How the model work} The model setup allows the mean and volatility switching in a regime to be delayed when the hysteresis variable lies in a hysteresis zone.
+\end{frame}
+\subsection{Objectives of the study}
+\begin{frame}
+	\frametitle{\textbf{Objectives of the Study}}
+	\begin{exampleblock}
+		<1->{\textbf{General Objective}}
+	\end{exampleblock}
+     To develop realized hysteretic GARCH Model for Bayesian quantile forecasting
+    \begin{exampleblock}
+    	<1->{\textbf{Specific Objectives}}
+    \end{exampleblock}
+    \begin{itemize}
+    	\item [i.] To develop realized hysteretic GARCH Model
+    	\item [ii.] To estimate the model parameters and evaluate quantile forecast of volatility (\textbf{Bayesian MCMC procedure})
+    	\item [iii.] To determine the performance of the model (\textbf{model fitted to stock prices and compared with R-GARCH and R-TGARCH model results})
+    \end{itemize}
+\end{frame}
+
+\section{Methods}
+\begin{frame}
+	\frametitle{\textbf{Methods}}
+    	\begin{itemize}
+			\item The article extended the R-GARCH model \cite{chen2019bayesian}, by introducing hysteresis concept to R-GARCH to develop R-HGARCH
+			\item Model combine daily returns and realized kernel in the three regime nonlinear model. \item Bayesian Markov Chain Monte Carlo (MCMC) procedure to estimate model parameters and obtain volatility, VaR and ES forecast.
+			\end{itemize}
+	\end{frame}
+		\begin{frame}
+			\frametitle{\textbf{Cont'd}}
+		\begin{itemize}
+			\item Evaluation of VaR for volatility forecast and quantile forecast, VRate was used.
+			\item To assess the accuracy of VaR estimation, backtesting methods; CC test \cite{christoffersen1998evaluating} and DQ test \cite{engle2004caviar} were used.
+			\item Evaluation of ES was done using two measures $V_{1}(\alpha)$ which takes VaR estimates and $V_{2}(\alpha)$ which is a penalty term and depends on VaR estimates \cite{embrechts2005strategic,takahashi2016volatility}.
+			\item The evaluation of volatility was done using two loss functions; MSE and QLIKE \cite{patton2011volatility}.
+    \end{itemize}
+	   \end{frame}
+\section{Results}
+\begin{frame}[plain]
+	\frametitle{\textbf{Results}}
+	\begin{itemize}
+		\item The study evaluates the performance of R-HGARCH model
+		using daily returns and realized measures for four stock markets: Japan (Nikkei 225), South Korea (KOSPI), the United Kingdom (FTSE 100), and the United States (DJIA), data spanning from January 4, 2010, to December 31, 2020.
+		\item R-GARCH and realized two-regime threshold GARCH were considered for comparison for performance of tail forecasting. 
+		
+		\item Bayesian risk forecasting via predictive distributions on four stock markets, and results showed that realized hysteretic GARCH model outperforms the realized GARCH and the realized threshold GARCH at the 1\% level in terms of violation rates and backtests.
+	\end{itemize}
+\end{frame}
+\begin{frame}[plain]
+	\frametitle{\textbf{Cont'}}
+	\begin{itemize}
+		\item R-TGARCH model performs superior for Nikkei 225 and DJIA. The R-HGARCH model has the highest ranking performance for KOSPI and FTSE 100 when the evaluation of ES is at the 1\% significance level. \item Root MSE (RMSE) and QLIKE for four target series shows that the R-HGARCH model works splendidly in the US and UK stock markets in terms of the lowest RMSE values.
+		\item The R-TGARCH model performs well in the two Asia markets under the RMSE and QLIKE criteria.
+	\end{itemize}
+\end{frame}
+\section{Conclusion}
+\begin{frame}[plain]
+	\frametitle{\textbf{Conclusion}}
+      \begin{itemize}
+      	\item Results indicate that R-HGARCH model outperforms
+      	among the realized models at the 1\% level in terms
+      	of VRates and backtests. However no clear winner based
+      	on the performance in ES. 
+      	\item Evaluation of ES is
+      	at the 1\% significance level, the R-HGARCH model has
+      	the best performance for KOSPI and DJIA and the realized
+      	two-regime threshold GARCH model performs the
+      	best for Nikkei 225 and FTSE 100.
+      	\item The R-HGARCH
+      	model performs well in the US and UK stock markets
+      	based on RMSE, while the R-TGARCH model performs
+      	well in the two Asia stock markets. The study only focused on realized
+      	single, two-regime, and hysteretic GARCH models
+      	for comparison.	
+      \end{itemize}
+  \textbf{Study suggestion} For comparison, realized exponential
+  GARCH model and realized heterogeneous autoregressive GARCH model can be included for future studies
+\end{frame}
+\section{Strengths and Limitations}
+\begin{frame}[plain]
+	\frametitle{\textbf{Strengths, Limitations}}
+		\begin{exampleblock}
+			<1->{\textbf{Strengths}}
+		\end{exampleblock}
+	\begin{itemize}
+		\item Model capable to do quantile forecasting when there is presence of hysteresis and the model has proved to work considerably well
+	\end{itemize} 
+		\begin{exampleblock}
+			<1->{\textbf{Limitations}}
+		\end{exampleblock}
+	\begin{itemize}
+		\item The model consider only one case of hysteresis caused by COVID-19 on stock prices
+		\item The model only shows better performance in US and UK stock market prices and poor performance in Asia stock markets, this shows less robustness of the model
+	
+	\end{itemize}
+\end{frame}
+\section{Suggestion for Model Improvement}
+\begin{frame}[plain]
+	\frametitle{\textbf{Suggestion for model improvement}}
+	\begin{itemize}
+		\item Since the model has been developed for a particular purpose i.e., volatility forecasting, the model might not be optimal for all stock markets and we have seen on its poor performance on Asia stock markets. 
+		\item Proposal is adding a parameter into the model for market-specific information, this parameter will be sensitive to market change and adjust accordingly.
+		\item Market-specific information includes market sentiment indicators, and macroeconomic data.
+		\item This will potentially improve the model performance in different markets by making it more adaptive rather than it being static model.
+	\end{itemize}
+\end{frame}
+\section{Key reference}
+\begin{frame}[plain]
+	\frametitle{\textbf{Key references}}
+	\begin{itemize}
+		\item Study relied on two main article to develop new model which capture the effect of hysteresis, the two models were
+		\item \cite{hansen2012realized} who studied GARCH model with realized kernel
+		\item \cite{chen2019bayesian} who investigated the realized two-regime threshold GARCH model
+		\item Although this model was able to model and forecast data in two different regimes the model fall short of being able to capture the hysteresis on the stock market prices and this inform the idea of to extend the R-GARCH for the model to be able to capture realized hysteresis.
+	\end{itemize}
+\end{frame}						
+\section{References}
+\begin{frame}{References}
+%[allowframebreaks]
+   \small
+	\bibliographystyle{apa}
+	\bibliography{Critique}
+	
+\end{frame}
+	
+	\begin{frame}[plain]
+		\begin{center}
+			\LARGE{THANK YOU\\}
+		\end{center}
+	\end{frame}
+\end{document}

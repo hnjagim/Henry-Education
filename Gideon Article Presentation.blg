@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Gideon Article Presentation.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+The style file: apa.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Database file #1: Critique.bib
+You've used 7 entries,
+            1940 wiz_defined-function locations,
+            526 strings with 5071 characters,
+and the built_in function-call counts, 2927 in all, are:
+= -- 299
+> -- 94
+< -- 5
++ -- 30
+- -- 30
+* -- 265
+:= -- 493
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 50
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 107
+empty$ -- 213
+format.name$ -- 41
+if$ -- 571
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 7
+newline$ -- 38
+num.names$ -- 21
+pop$ -- 34
+preamble$ -- 1
+purify$ -- 50
+quote$ -- 0
+skip$ -- 87
+stack$ -- 0
+substring$ -- 260
+swap$ -- 23
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 42
+warning$ -- 0
+while$ -- 29
+width$ -- 0
+write$ -- 93

@@ -1,0 +1,111 @@
+@Article{mchugh2013chi,
+  author    = {McHugh, Mary L.},
+  journal   = {Biochemia medica},
+  title     = {Chi-två-testet för oberoende},
+  year      = {2013},
+  number    = {2},
+  pages     = {143--149},
+  volume    = {23},
+  language  = {Swedish},
+  publisher = {Medicinska naklada},
+}
+
+@Article{rana2015chi,
+  author    = {Rana, Rakesh and Singhal, Richa and others},
+  journal   = {Journal of the Practice of Cardiovascular Sciences},
+  title     = {Chi-kvadrattest och dess tillämpning vid hypotestestning},
+  year      = {2015},
+  number    = {1},
+  pages     = {69},
+  volume    = {1},
+  language  = {swedish},
+  publisher = {Medknow Publications},
+}
+
+@Article{gilliver2014recent,
+  author    = {Gilliver, Stephen C. and Sundquist, Jan and Li, Xinjun and Sundquist, Kristina},
+  journal   = {The European Journal of Public Health},
+  title     = {Recent research on the mental health of immigrants to Sweden: a literature review},
+  year      = {2014},
+  number    = {suppl\_1},
+  pages     = {72--79},
+  volume    = {24},
+  publisher = {Oxford University Press},
+}
+
+@Article{lecerof2015does,
+  author    = {Lecerof, Susanne Sundell and Stafstr{\"o}m, Martin and Westerling, Ragnar and {\"O}stergren, Per-Olof},
+  journal   = {Health promotion international},
+  title     = {Does social capital protect mental health among migrants in Sweden?},
+  year      = {2015},
+  number    = {3},
+  pages     = {644--652},
+  volume    = {31},
+  publisher = {Oxford University Press},
+}
+
+@Article{leiler2019mental,
+  author    = {Leiler, Anna and Bjartaa, Anna and Ekdahl, Johanna and Wasteson, Elisabet},
+  journal   = {Social psychiatry and psychiatric epidemiology},
+  title     = {Mental health and quality of life among asylum seekers and refugees living in refugee housing facilities in Sweden},
+  year      = {2019},
+  pages     = {543--551},
+  volume    = {54},
+  publisher = {Springer},
+}
+
+@Article{hossain2020epidemiology,
+  author    = {Hossain, Md Mahbub and Tasnim, Samia and Sultana, Abida and Faizah, Farah and Mazumder, Hoimonty and Zou, Liye and McKyer, E. Lisako J. and Ahmed, Helal Uddin and Ma, Ping},
+  journal   = {F1000Research},
+  title     = {Epidemiology of mental health problems in COVID-19: a review},
+  year      = {2020},
+  volume    = {9},
+  publisher = {Faculty of 1000 Ltd},
+}
+
+@Article{huo2021burnout,
+  author    = {Huo, Lijuan and Zhou, Yongjie and Li, Shen and Ning, Yuping and Zeng, Lingyun and Liu, Zhengkui and Qian, Wei and Yang, Jiezhi and Zhou, Xin and Liu, Tiebang and others},
+  journal   = {Frontiers in psychology},
+  title     = {Utmattningssyndrom och dess relation till depressiva symtom hos medicinsk personal under COVID-19-epidemin i Kina},
+  year      = {2021},
+  pages     = {616369},
+  volume    = {12},
+  language  = {Swedish},
+  publisher = {Frontiers Media SA},
+}
+
+@Article{kackin2021upplevelser,
+  author    = {Kackin, Ozlem and Ciydem, Emre and Aci, Ozgur Sema and Kutlu, Fatma Yasemin},
+  journal   = {Internationell Tidskrift för Social Psykiatri},
+  title     = {Upplevelser och psykosociala problem hos sjuksköterskor som vårdar patienter med COVID-19 i Turkiet: En kvalitativ studie},
+  year      = {2021},
+  number    = {2},
+  pages     = {158--167},
+  volume    = {67},
+  publisher = {SAGE Publications Sage UK: London, England},
+}
+
+@Article{onyeaka2021covid,
+  author    = {Onyeaka, Helen och Anumudu and Christian K. och Al-Sharify, Zainab T. och Egele-Godswill and Esther och Mbaegbu, Paul},
+  journal   = {Science progress},
+  title     = {COVID-19 pandemin: En översikt av den globala nedstängningen och dess långtgående effekter},
+  year      = {2021},
+  number    = {2},
+  pages     = {00368504211019854},
+  volume    = {104},
+  language  = {Swedish},
+  publisher = {SAGE Publications Sage UK: London, England},
+}
+
+@Article{smallwood2022covid,
+  author    = {Smallwood, Natasha and Harrex, Warren and Rees, Megan and Willis, Karen and Bennett, Catherine M.},
+  journal   = {Respirology},
+  title     = {COVID-19-infektion och de bredare effekterna av pandemin på sjukvårdspersonal},
+  year      = {2022},
+  number    = {6},
+  pages     = {411--426},
+  volume    = {27},
+  publisher = {Wiley Online Library},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

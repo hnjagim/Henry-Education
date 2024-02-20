@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Slides.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apalike.bst
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Database file #1: referencing.bib
+Repeated entry---line 768 of file referencing.bib
+ : @book{cressie2015statistics
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 816 of file referencing.bib
+ : @book{cressie2015statistics
+ :                            ,
+I'm skipping whatever remains of this entry
+You've used 19 entries,
+            1935 wiz_defined-function locations,
+            602 strings with 6919 characters,
+and the built_in function-call counts, 7594 in all, are:
+= -- 761
+> -- 284
+< -- 9
++ -- 96
+- -- 92
+* -- 685
+:= -- 1316
+add.period$ -- 57
+call.type$ -- 19
+change.case$ -- 139
+chr.to.int$ -- 19
+cite$ -- 19
+duplicate$ -- 265
+empty$ -- 547
+format.name$ -- 123
+if$ -- 1460
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 21
+newline$ -- 98
+num.names$ -- 57
+pop$ -- 106
+preamble$ -- 1
+purify$ -- 141
+quote$ -- 0
+skip$ -- 198
+stack$ -- 0
+substring$ -- 635
+swap$ -- 19
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 110
+warning$ -- 0
+while$ -- 70
+width$ -- 0
+write$ -- 246
+(There were 2 error messages)

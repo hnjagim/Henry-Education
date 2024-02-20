@@ -1,0 +1,9 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Background of the study}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Statement of the problem}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{Objectives of the Study}{6}{0}{1}
+\beamer@subsectionintoc {1}{4}{Significance of the study}{7}{0}{1}
+\beamer@sectionintoc {2}{Methodology}{8}{0}{2}
+\beamer@sectionintoc {3}{Results and Discussion}{25}{0}{3}
+\beamer@sectionintoc {4}{Conclusion and Recommendation}{37}{0}{4}
+\beamer@sectionintoc {5}{References}{39}{0}{5}
